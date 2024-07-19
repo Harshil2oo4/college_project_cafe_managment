@@ -1,0 +1,66 @@
+.ul_demo{
+  --bs-scroll-height: 100px;
+  /* border: 2px solid black; */
+  text-align: center;
+  margin-left: 30%;
+}
+
+.bg_color:hover{
+  background-color: rgb(238, 232, 232);
+  border-radius: 6px;
+
+}
+
+.spacing{
+  /* width: 100%; */
+  /* padding-right: 20px; */
+  /* border : 2px solid black; */
+  /* font-size: 20px; */
+  margin-right: 10px;
+}
+
+.display_flex{
+  /* width: 100px; */
+  display: flex;
+  /* border: 2px solid black; */
+  /* font-size: 20px; */
+  border-radius: 20px;
+  background-color: rgb(12, 226, 12);
+  /* height: 20px; */
+}
+
+.display_spacing{
+  padding: 0;
+  /* font-size: 20px; */
+  width: 120px;
+}
+
+.display_flex:hover{
+  background-color:rgb(212, 203, 203) ;
+  border-radius: 20px;
+}
+
+.spacing_both{
+  /* border: 2px solid black; */
+  background-color: transparent;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.top_pack{
+  /* background-color: white; */
+  /* font-size: 25px; */
+  /* background-color: aquamarine; */
+   /* border: 2px solid black; */
+   margin-top: 10px;
+   /* height: 10px; */
+   /* width: px; */
+  }
+
+  
+
+.search_logo_spacing{
+  margin-left: 20px;
+  font-size: 18px;
+}
+

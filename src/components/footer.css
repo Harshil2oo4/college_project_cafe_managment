@@ -1,0 +1,19 @@
+.bold_footer{
+  font-weight: 700;
+}
+
+.space_footer{
+  /* border: 2px solid black; */
+  margin-top: 10px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.spacing_p_in_footer_left_side{
+  /* border: 2px solid black; */
+  margin-top: 20px;
+  font-weight: 500;
+  /* white-space: 10px ; */
+  font-size: 18px;
+  width: 90%;
+}

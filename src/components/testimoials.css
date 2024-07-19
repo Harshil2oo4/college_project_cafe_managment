@@ -1,0 +1,117 @@
+.main_container_testimoils{
+  /* border: 2px solid black; */
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  /* height: 400px; */
+  padding-bottom: 50px;
+}
+
+.left_side_testi{
+  /* border: 2px solid black; */
+  width: 50%;
+  /* justify-content: center; */
+  text-align: center;
+}
+
+.img_container{
+  /* border: 2px solid black; */
+  /* display: inline-block; */
+  margin: 20px;
+}
+
+.img_resize_testi{
+  height: 500px;
+  width: 420px;
+}
+
+.right_side_testi{
+  /* border: 2px solid black; */
+  width: 50%;
+  padding-left: 20px;
+  padding-top: 80px;
+}
+
+.p_conatiner_testi{
+  color: #FF6868;
+  font-size: 22px;
+  /* border: 2px solid black; */
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.h1_container_testi{
+  font-weight: 700;
+  color: #000000;
+  width: 70%;
+  /* border: 2px solid black; */
+  margin-bottom: 20px;
+}
+
+.p_info_container_testi{
+  /* border: 2px solid black; */
+  display: inline-block;
+  width: 65%;
+}
+
+.img_size_zindex{
+  /* border: 2px solid black; */
+  display: inline-block;
+}
+
+.img_size_review_testi{
+  /* border: 2px solid black; */ 
+  height: 55px;
+  width: 55px;
+}
+
+.left_side_img{
+  margin-left: -22px;
+}
+
+.first_img_resize_testi{
+  height: 45px;
+  width: 50px;
+}
+
+.img_review_container{
+  /* width: 70%; */
+  margin-top: 35px;
+  /* border: 2px solid black; */
+}
+
+.img_review_container{
+  /* border: 2px solid black; */
+  display: flex;
+}
+
+.feedback_review_testi{
+  /* border: 2px solid black; */
+  display: inline-block;
+  /* width: 400px; */
+  /* display: flex; */
+  margin-left: 40px;
+}
+
+.display_flex_testi_rating{
+  display: flex;
+}
+
+.bold_rating_point{
+  font-weight: 700;
+  font-size: 18px;
+  /* border: 2px solid black; */
+  margin-top: -3px;
+}
+
+.h5_feedback_bold{
+  font-weight: 700;
+}
+
+.color_gray_rating_testi{
+  /* border: 2px solid black; */
+  color: rgb(112, 111, 111);
+  margin-left: 10px;
+  margin-top: -2px;
+}

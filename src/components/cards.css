@@ -1,0 +1,90 @@
+.total_rating{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.color_price_cards{
+  color: #FF6868;
+  font-size: 17px !important;
+}
+
+.color_price_total_cards{
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.rating_cards{
+  font-weight: 700;
+  font-size: 15px;
+  color: rgb(95, 93, 93);
+}
+
+.bold_text_cards{
+  font-weight: 700;
+  color: #000000;
+}
+
+.cards_design{
+  border: 2px solid rgb(236, 232, 232);
+  border-radius: 40px;
+  margin: 0 auto;
+  width: 70%;
+  box-shadow: 0 0 30px 1px rgb(221, 214, 214);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.size_img_cards{
+  height: 150px;
+  width: 150px;
+  /* border: 2px solid black; */
+  margin-left: 95px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.design_des_name_cards{
+  margin-top: 10px;
+  padding: 0 9%;
+}
+
+.design_heart_cards{
+  /* border: 2px solid black; */
+  font-size: 30px;
+  position: relative;
+  /* top: 20% ; */
+ float: right;
+ /* padding: ; */
+ justify-content: right;
+ /* padding: 10px; */
+ padding-right: 15px;
+ padding-top: 5px;
+ padding-left: 15px;
+ padding-bottom: 10px;
+ z-index: 100;
+ background-color: #39DB4A;
+ color: white;
+ border-end-start-radius: 40px;
+}
+
+.design_heart{
+cursor: pointer;
+}
+
+.simple_next_dish{
+  display: block;
+  background-color: red;
+}
+
+.simple_prev_dish{
+  display: block;
+  background-color: green;
+}
+
+.size_img_cards:hover{
+  transform: scale(1.1);
+}

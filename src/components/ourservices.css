@@ -1,0 +1,113 @@
+.main_container_ourservices{
+  /* border: 2px solid black; */
+  display: flex;
+  height: 500px;
+
+}
+
+.left_container_ourservices{
+  width: 50%;
+  /* border: 2px solid black; */
+  /* float: left; */
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.right_container_ourservices{
+  width: 50%;
+  /* gap: 10px; */
+  /* border: 2px solid black; */
+  flex-wrap: wrap;
+  /* grid-template-columns: 40% 40%; */
+  display: grid;
+  /* overflow: hidden; */
+  /* grid-column: 20px 20px 20px 20px; */
+}
+
+.info_ourservices{
+  /* border: 2px solid black; */
+  width: 80%;
+  margin-left: 50px;
+}
+
+.color_p_ourservices{
+  color: #FF6868;
+  font-weight: 700;
+  /* border: 2px solid black; */
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.h1_bold_ourservices{
+  /* border: 2px solid black; */
+  font-weight: 700;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.info_details_ourservices{
+  /* border: 2px solid black; */
+  width: 80%;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.position_btn_ourservices{
+  /* border: 2px solid black; */
+  margin: 0;
+  margin-top: 25px;
+}
+
+.img_list_green_ourservices{
+  /* display: grid;
+  grid-column: 2sm;
+  grid-column: 1sm;
+  gap: 8px;
+  align-items: center; */
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 2fr));
+  grid-template-rows: repeat(2, minmax(150px, 2fr));
+  /* border: blue 5px solid; */
+}
+
+.img_hover_ourservices:hover{
+  transform: scale(1.1);
+}
+
+.img_every_list_servicelist{
+  width: 80%;
+  margin-bottom: 20px;
+  /* gap: 10px; */
+  box-shadow: 0 0 30px 4px rgb(219, 218, 218);
+  /* border: 2px solid black; */
+text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 30px;
+  /* width: 40%; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* height: 200px; */
+  /* width: 50%; */
+}
+
+.p_des_ourservices{
+  /* border: 2px solid black; */
+  /* text-align: center; */
+  margin: auto;
+  /* display: inline-block; */
+  color: #90BD95;
+  /* margin: auto; */
+  width: 70%;
+  /* margin-bottom: 20px; */
+}
+
+.green_color_text_ourservices{
+  color: #5FE26C;
+  font-size: 18px;
+  /* border: 2px solid black; */
+  margin-top: 14px;
+  /* display: inline-block; */
+}
