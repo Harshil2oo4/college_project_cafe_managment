@@ -5,8 +5,8 @@ const Banner = () => {
     <div class="main_continer border">
       <div className="left_side margin_padding">
         <h2 className="font_wight">
-          Dive into Delight Of Delectable
-          <span className="col_green">Food</span>
+          Dive into Delight Of Delectable 
+          <span className="col_green"> Food</span>
         </h2>
         <p className="design_p_tag spacing ">
           Where Each Plate Weaves a Story of Culinary Mastery and Passionate

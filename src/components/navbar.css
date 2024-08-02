@@ -57,10 +57,23 @@
    /* width: px; */
   }
 
-  
-
 .search_logo_spacing{
   margin-left: 20px;
   font-size: 18px;
+}
+
+.design_select_tag_navbar{
+  /* padding: 20px 20px; */
+  border: none;
+  width: 110px;
+  padding-left: 20px;
+  /* padding-right: 20px; */
+  margin-right: 10px;
+  /* margin-left: 20px; */
+}
+
+.design_navbar_option{
+  border: none;
+  border-radius: 10px;
 }
 

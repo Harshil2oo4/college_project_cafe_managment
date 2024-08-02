@@ -29,68 +29,20 @@ const Navbar = () => {
                   Home
                 </a>
               </li>
-              <li class="nav-item dropdown bg_color">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Menu
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown bg_color">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Services
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li>
+              <select class="bg_color design_select_tag_navbar">
+                <option className="design_navbar_option">Menu</option>
+                <option className="design_navbar_option">Capachino</option>
+                <option className="design_navbar_option">Coffe De Madre</option>
+                <option className="design_navbar_option">Soft Coffee</option>
+                <option className="design_navbar_option">Hot Tea</option>
+              </select>
+              <select class="bg_color design_select_tag_navbar">
+                <option className="design_navbar_option">Menu</option>
+                <option className="design_navbar_option">Salad with Nachos</option>
+                <option className="design_navbar_option">Ham Burger</option>
+                <option className="design_navbar_option">Tea With Vadapav</option>
+                <option className="design_navbar_option">Cold coffee</option>
+              </select>
               <li class="nav-item bg_color">
                 <a class="nav-link " aria-disabled="true">
                   Offers
